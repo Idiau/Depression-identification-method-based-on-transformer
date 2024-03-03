@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-01-22T06:37:11.188750",
+    "startedAt": "2024-01-22T06:37:03.696776",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "depressive_speech.ipynb",
+    "codePathLocal": "depressive_speech.ipynb",
+    "root": "D:\\Paper\\red-flag-text-detection-main",
+    "host": "LAPTOP-98MBCKEB",
+    "username": "lenovo",
+    "executable": "D:\\Anaconda\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 292.96874618530273,
+            "used": 72.55205154418945
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.909957885742188
+    }
+}

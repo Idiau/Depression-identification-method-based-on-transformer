@@ -1,0 +1,118 @@
+2024-01-22 14:35:14,769 INFO    StreamThr :5852 [internal.py:wandb_internal():86] W&B internal server running at pid: 5852, started at: 2024-01-22 14:35:14.769690
+2024-01-22 14:35:14,769 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status
+2024-01-22 14:35:14,816 INFO    WriterThread:5852 [datastore.py:open_for_write():87] open: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\run-lk3r7awr.wandb
+2024-01-22 14:35:14,816 DEBUG   SenderThread:5852 [sender.py:send():382] send: header
+2024-01-22 14:35:14,816 DEBUG   SenderThread:5852 [sender.py:send():382] send: run
+2024-01-22 14:35:17,541 INFO    SenderThread:5852 [dir_watcher.py:__init__():211] watching files in: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files
+2024-01-22 14:35:17,541 INFO    SenderThread:5852 [sender.py:_start_run_threads():1136] run started: lk3r7awr with start time 1705905314.80074
+2024-01-22 14:35:17,556 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: check_version
+2024-01-22 14:35:17,556 DEBUG   SenderThread:5852 [sender.py:send_request():409] send_request: check_version
+2024-01-22 14:35:18,410 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: run_start
+2024-01-22 14:35:18,478 DEBUG   HandlerThread:5852 [system_info.py:__init__():27] System info init
+2024-01-22 14:35:18,478 DEBUG   HandlerThread:5852 [system_info.py:__init__():42] System info init done
+2024-01-22 14:35:18,478 INFO    HandlerThread:5852 [system_monitor.py:start():194] Starting system monitor
+2024-01-22 14:35:18,478 INFO    SystemMonitor:5852 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-22 14:35:18,478 INFO    HandlerThread:5852 [system_monitor.py:probe():214] Collecting system info
+2024-01-22 14:35:18,484 INFO    SystemMonitor:5852 [interfaces.py:start():190] Started cpu monitoring
+2024-01-22 14:35:18,484 INFO    SystemMonitor:5852 [interfaces.py:start():190] Started disk monitoring
+2024-01-22 14:35:18,485 INFO    SystemMonitor:5852 [interfaces.py:start():190] Started gpu monitoring
+2024-01-22 14:35:18,485 INFO    SystemMonitor:5852 [interfaces.py:start():190] Started memory monitoring
+2024-01-22 14:35:18,514 INFO    SystemMonitor:5852 [interfaces.py:start():190] Started network monitoring
+2024-01-22 14:35:18,549 DEBUG   HandlerThread:5852 [system_info.py:probe():151] Probing system
+2024-01-22 14:35:18,550 DEBUG   HandlerThread:5852 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-22 14:35:18,550 DEBUG   HandlerThread:5852 [system_info.py:probe():199] Probing system done
+2024-01-22 14:35:18,550 DEBUG   HandlerThread:5852 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-01-22T06:35:18.550276', 'startedAt': '2024-01-22T06:35:14.769690', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'depressive_speech.ipynb', 'codePathLocal': 'depressive_speech.ipynb', 'root': 'D:\\Paper\\red-flag-text-detection-main', 'host': 'LAPTOP-98MBCKEB', 'username': 'lenovo', 'executable': 'D:\\Anaconda\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'/': {'total': 292.96874618530273, 'used': 72.55192184448242}}, 'gpu': 'NVIDIA GeForce GTX 1650 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 Ti', 'memory_total': 4294967296}], 'memory': {'total': 15.909957885742188}}
+2024-01-22 14:35:18,551 INFO    HandlerThread:5852 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-22 14:35:18,551 INFO    HandlerThread:5852 [system_monitor.py:probe():227] Publishing system info
+2024-01-22 14:35:18,551 DEBUG   HandlerThread:5852 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-22 14:35:18,556 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\conda-environment.yaml
+2024-01-22 14:35:18,558 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:20,624 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:22,693 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:24,765 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:26,839 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:28,896 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:30,959 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:33,020 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:35,087 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:37,151 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:39,422 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:40,320 DEBUG   HandlerThread:5852 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-22 14:35:40,320 INFO    HandlerThread:5852 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-22 14:35:40,337 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:35:40,338 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-22 14:35:40,338 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:35:40,338 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-22 14:35:40,338 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:35:40,338 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-22 14:35:40,338 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:35:40,338 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-22 14:35:40,339 DEBUG   SenderThread:5852 [sender.py:send():382] send: files
+2024-01-22 14:35:40,339 INFO    SenderThread:5852 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-22 14:35:40,351 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-22 14:35:40,351 DEBUG   SenderThread:5852 [sender.py:send_request():409] send_request: python_packages
+2024-01-22 14:35:40,352 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-22 14:35:40,353 DEBUG   SenderThread:5852 [sender.py:send_request():409] send_request: stop_status
+2024-01-22 14:35:40,354 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-22 14:35:40,409 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\conda-environment.yaml
+2024-01-22 14:35:40,411 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\wandb-metadata.json
+2024-01-22 14:35:40,411 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\requirements.txt
+2024-01-22 14:35:41,483 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:42,758 DEBUG   SenderThread:5852 [sender.py:send():382] send: telemetry
+2024-01-22 14:35:42,758 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:35:42,758 DEBUG   SenderThread:5852 [sender.py:send():382] send: config
+2024-01-22 14:35:42,759 DEBUG   SenderThread:5852 [sender.py:send():382] send: metric
+2024-01-22 14:35:42,760 DEBUG   SenderThread:5852 [sender.py:send():382] send: telemetry
+2024-01-22 14:35:42,760 DEBUG   SenderThread:5852 [sender.py:send():382] send: metric
+2024-01-22 14:35:42,760 WARNING SenderThread:5852 [sender.py:send_metric():1354] Seen metric with glob (shouldn't happen)
+2024-01-22 14:35:42,760 DEBUG   SenderThread:5852 [sender.py:send():382] send: telemetry
+2024-01-22 14:35:43,553 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:45,335 INFO    wandb-upload_0:5852 [upload_job.py:push():131] Uploaded file C:\Users\lenovo\AppData\Local\Temp\tmppcq_1sufwandb\2gyghwla-wandb-metadata.json
+2024-01-22 14:35:45,620 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:47,679 ERROR   gpu       :5852 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-22 14:35:47,800 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:35:49,321 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: pause
+2024-01-22 14:35:49,321 INFO    HandlerThread:5852 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-01-22 14:35:49,322 INFO    HandlerThread:5852 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-22 14:35:49,322 DEBUG   SystemMonitor:5852 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-22 14:35:49,322 DEBUG   SystemMonitor:5852 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-22 14:35:49,329 DEBUG   SystemMonitor:5852 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-22 14:35:49,329 INFO    HandlerThread:5852 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-22 14:35:49,330 INFO    HandlerThread:5852 [interfaces.py:finish():202] Joined disk monitor
+2024-01-22 14:35:49,367 INFO    HandlerThread:5852 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-22 14:35:49,368 INFO    HandlerThread:5852 [interfaces.py:finish():202] Joined memory monitor
+2024-01-22 14:35:49,368 INFO    HandlerThread:5852 [interfaces.py:finish():202] Joined network monitor
+2024-01-22 14:35:49,761 DEBUG   SenderThread:5852 [sender.py:send():382] send: stats
+2024-01-22 14:35:50,693 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\config.yaml
+2024-01-22 14:35:50,693 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\output.log
+2024-01-22 14:35:52,717 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\output.log
+2024-01-22 14:35:54,809 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:35:55,369 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-22 14:35:55,369 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-22 14:35:55,370 DEBUG   SenderThread:5852 [sender.py:send_request():409] send_request: stop_status
+2024-01-22 14:35:59,862 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:36:04,897 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:36:09,946 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:36:10,381 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-22 14:36:10,381 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-22 14:36:10,382 DEBUG   SenderThread:5852 [sender.py:send_request():409] send_request: stop_status
+2024-01-22 14:36:15,414 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-22 14:36:20,461 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:36:20,462 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-22 14:36:25,495 DEBUG   HandlerThread:5852 [handler.py:handle_request():146] handle_request: status_report
+2024-01-22 14:36:27,881 WARNING StreamThr :5852 [internal.py:is_dead():414] Internal process exiting, parent pid 8748 disappeared
+2024-01-22 14:36:27,881 ERROR   StreamThr :5852 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-01-22 14:36:28,109 INFO    MainThread:5852 [internal.py:handle_exit():76] Internal process exited
+2024-01-22 14:36:28,526 INFO    HandlerThread:5852 [handler.py:finish():869] shutting down handler
+2024-01-22 14:36:28,526 INFO    WriterThread:5852 [datastore.py:close():296] close: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\run-lk3r7awr.wandb
+2024-01-22 14:36:28,526 INFO    SenderThread:5852 [sender.py:finish():1572] shutting down sender
+2024-01-22 14:36:29,881 INFO    SenderThread:5852 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-22 14:36:30,130 INFO    Thread-16 :5852 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\output.log
+2024-01-22 14:36:30,133 INFO    SenderThread:5852 [dir_watcher.py:finish():388] scan: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files
+2024-01-22 14:36:30,133 INFO    SenderThread:5852 [dir_watcher.py:finish():402] scan save: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\conda-environment.yaml conda-environment.yaml
+2024-01-22 14:36:30,133 INFO    SenderThread:5852 [dir_watcher.py:finish():402] scan save: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\config.yaml config.yaml
+2024-01-22 14:36:30,224 INFO    SenderThread:5852 [dir_watcher.py:finish():402] scan save: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\output.log output.log
+2024-01-22 14:36:30,233 INFO    SenderThread:5852 [dir_watcher.py:finish():402] scan save: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\requirements.txt requirements.txt
+2024-01-22 14:36:30,234 INFO    SenderThread:5852 [dir_watcher.py:finish():402] scan save: D:\Paper\red-flag-text-detection-main\wandb\run-20240122_143514-lk3r7awr\files\wandb-metadata.json wandb-metadata.json
+2024-01-22 14:36:30,234 INFO    SenderThread:5852 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-22 14:36:30,234 INFO    SenderThread:5852 [file_pusher.py:join():181] waiting for file pusher
